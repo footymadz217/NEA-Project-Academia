@@ -1,0 +1,30 @@
+.home-container {
+    background-color: #2c3e50; 
+    color: white;
+    text-align: center;
+    padding: 225px;
+  }
+  
+  .role-box {
+    background: #5d6d7e;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+  }
+  
+  .view-card {
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .view-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  

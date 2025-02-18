@@ -1,0 +1,56 @@
+.academia-container {
+    background-color: #d9e2e7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .academia-title {
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  .brand {
+    color: #007bff;
+  }
+  
+  .home-page {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .role-box {
+    background: #a0b7c3;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 20px 0;
+  }
+
+  option-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px
+
+  }
+  
+  .option-card {
+    background-color: #b0c4de;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .option-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon {
+    font-size: 50px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
