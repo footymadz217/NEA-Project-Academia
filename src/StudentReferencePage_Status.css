@@ -1,0 +1,48 @@
+.reference-card {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  .completed {
+    background-color: green;
+    color: white;
+  }
+  
+  .ongoing {
+    background-color: orange;
+    color: white;
+  }
+  
+  .incomplete {
+    background-color: red;
+    color: white;
+  }
+  
+  .legend {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .legend-item {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .legend-item.completed {
+    background-color: green;
+  }
+  
+  .legend-item.ongoing {
+    background-color: orange;
+  }
+  
+  .legend-item.incomplete {
+    background-color: red;
+  }
+  

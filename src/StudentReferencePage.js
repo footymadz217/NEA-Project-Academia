@@ -4,8 +4,16 @@ import EditIcon from "@mui/icons-material/Edit";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./StudentReferencePage_Options.css";
+import { useState } from "react";
+import SubjectReferences from "./StudentReferencePage_Status";
 
 export default function ReferenceCards() {
+  const [subject, setSubject] = useState(false)
+  if (subject){
+
+    return <SubjectReferences/>
+
+  }
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -45,7 +53,7 @@ export default function ReferenceCards() {
             </Card>
           </div>
           <div className="col-md-5">
-            <Card className="reference-card">
+            <Card className="reference-card" onClick = {()=> setSubject(true)}>
               <CardContent className="text-center">
                 <VisibilityIcon className="icon" />
                 <Typography variant="h6" className="mt-3">
